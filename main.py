@@ -6,8 +6,4 @@ class Solution:
             if i > prev: count = -(-i // prev); total += count - 1
             prev = i // count
         return total
-
-
-test = Solution()
-testArr = [3,9,3]
-print(test.minimumReplacement(testArr))
+        
